@@ -1,26 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Game X Pro Update</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Game X Pro Update</title>
+
+  <style>
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:#0f172a;
+      color:#fff;
+      font-family:Arial,sans-serif;
+      text-align:center;
+    }
+
+    .box{
+      width:90%;
+      max-width:360px;
+      background:#1e293b;
+      padding:30px 20px;
+      border-radius:20px;
+      box-sizing:border-box;
+    }
+
+    h2{
+      margin:0 0 10px;
+    }
+
+    p{
+      color:#cbd5e1;
+      font-size:14px;
+      margin-bottom:25px;
+    }
+
+    a{
+      display:block;
+      text-decoration:none;
+      background:#22c55e;
+      color:#fff;
+      padding:15px;
+      border-radius:12px;
+      font-weight:700;
+      font-size:16px;
+      margin-top:12px;
+    }
+
+    .download{
+      background:#3b82f6;
+    }
+  </style>
 </head>
 
-<body style="text-align:center;padding:40px;font-family:Arial">
+<body>
 
-<h2>Game X Pro V2</h2>
+  <div class="box">
+    <h2>Game X Pro V2</h2>
 
-<p>Update download karne ke liye neeche click karo...</p>
+    <p>
+      New version available.<br>
+      Open Chrome to download the latest APK.
+    </p>
 
-<a id="download"
-   href="https://github.com/parirani9050-hash/rana777777/releases/tag/v2.0.0">
-   DOWNLOAD V2
-</a>
+    <a href="intent://github.com/parirani9050-hash/rana777777/releases/tag/v2.0.0#Intent;scheme=https;package=com.android.chrome;end">
+      OPEN IN CHROME
+    </a>
 
-<script>
-setTimeout(function () {
-    document.getElementById('download').click();
-}, 1000);
-</script>
+    <a class="download"
+       href="https://github.com/parirani9050-hash/rana777777/releases/tag/v2.0.0">
+      DOWNLOAD V2
+    </a>
+  </div>
 
 </body>
 </html>
